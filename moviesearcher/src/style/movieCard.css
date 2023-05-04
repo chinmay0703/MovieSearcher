@@ -1,0 +1,42 @@
+.movie-card {
+  display: flex;
+  margin: 10px;
+  width: 450px;
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+
+.movie-details {
+  padding: 10px;
+  flex: 1;
+}
+
+.movie-title {
+  margin: 0;
+}
+
+.movie-info {
+  margin: 5px 0;
+}
+
+.movie-info-label {
+  font-weight: bold;
+}
+
+.movie-plot {
+  margin: 10px 0;
+}
+
+.movie-rating {
+  display: inline-block;
+  margin-right: 10px;
+}

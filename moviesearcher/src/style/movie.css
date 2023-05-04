@@ -1,0 +1,90 @@
+.container {
+  max-width: 1000px;
+  display: flexbox;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  height: 40px;
+  font-size: 18px;
+  padding: 0 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  height: 40px;
+  font-size: 18px;
+  padding: 0 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.grid-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.grid-item p {
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button,
+.pagination span {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #eee;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination .ellipsis {
+  margin: 0 10px;
+}
