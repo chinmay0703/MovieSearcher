@@ -32,3 +32,37 @@ Obtaining and using a TMDb API key
 4.	Add your API key to your .env file in the project directory as REACT_APP_TMDB_API_KEY=your-api-key-here
 5.	Remember to keep your API key secure and don't share it publicly
 
+# Movie Search Application
+
+## Prerequisites
+- Node.js and npm installed on your machine
+- An API key for The Movie Database (TMDb) API
+
+## Setting up the Application
+
+1. Clone the repository to your local machine using:
+
+2. The application should open automatically in your default browser at [http://localhost:3000/](http://localhost:3000/)
+
+3. Enter a search term in the input field and click the search button or press Enter
+
+4. The search results will be displayed on the page
+
+## Using the Application
+
+- Enter a search term for a movie title or any keyword regarding the movie category.
+- Click the search button or press Enter to display the search results
+
+## Obtaining and Using a TMDb API Key
+
+1. Sign up for a free account on the TMDb website at [https://www.themoviedb.org/signup](https://www.themoviedb.org/signup)
+
+2. After creating an account, go to your account settings page and click on the API section
+
+3. Generate a new API key and copy it to your clipboard
+
+4. Add your API key to your `.env` file in the project directory as `REACT_APP_TMDB_API_KEY=your-api-key-here`
+
+5. Remember to keep your API key secure and don't share it publicly
+
+
